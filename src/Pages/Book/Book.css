@@ -736,6 +736,19 @@
 } 
 
 
+.booking .upper .room .info .map p {
+    font-size: 0.3rem;
+    margin-right: 10px;
+    color: rgb(94, 94, 255);
+    text-decoration: underline;
+}
+
+
+.booking .upper .room .info .type p {
+    font-size: 0.3rem;
+    margin-right: 10px;
+}
+
 
   }
 
