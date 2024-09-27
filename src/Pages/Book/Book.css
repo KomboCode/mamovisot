@@ -713,7 +713,7 @@
 
 
 .booking .upper .condition p {
-    font-size: 0.3rem;
+    font-size: 0.2rem;
     margin-bottom: 4px;
     margin-top: 4px;
     color: rgba(0, 0, 0, 0.598);
@@ -737,7 +737,7 @@
 
 
 .booking .upper .room .info .map p {
-    font-size: 0.24rem;
+    font-size: 0.1rem;
     margin-right: 10px;
     color: rgb(94, 94, 255);
     text-decoration: underline;
@@ -745,7 +745,7 @@
 
 
 .booking .upper .room .info .type p {
-    font-size: 0.24rem;
+    font-size: 0.1rem;
     margin-right: 10px;
 }
 
