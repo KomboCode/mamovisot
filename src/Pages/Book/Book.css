@@ -749,6 +749,9 @@
     margin-right: 10px;
 }
 
+.booking .upper .room .info .type  {
+    display: flex;
+    flex-direction: column;
 
   }
 
