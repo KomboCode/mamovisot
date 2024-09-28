@@ -353,7 +353,7 @@ const Book = () => {
                                             <p>Free cancellation</p>
                                     </div>
                                          : null }
-                                    <button onClick={handleReserve}>Reserve Now</button>
+                                    <button className='reserva' onClick={handleReserve}>Reserve Now</button>
                                        
                                 </div>
                             </div>
