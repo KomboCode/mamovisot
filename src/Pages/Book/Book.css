@@ -133,6 +133,15 @@
     margin-right: 10px;
 }
 
+
+.booking .upper .room .info .kilos {
+    font-size: 0.85rem;
+    color: rgba(0, 0, 0, 0.598);
+    margin-top: 10px;
+    display: none;
+    /* margin-right: 10px; */
+}
+
 .booking .upper .room .info .type .icon {
     margin-right: 10px;
 }
@@ -522,13 +531,13 @@
 
         
     .booking .upper .room .info .map p {
-        font-size: 0.2rem;
+        font-size: 0.3rem;
         margin-right: 10px;
     }
 
         
     .booking .upper .room .info .type p {
-        font-size: 0.2rem;
+        font-size: 0.3rem;
         margin-right: 10px;
     }
    
@@ -551,7 +560,7 @@
     }
 
     .booking .upper .room .info .facilities p {
-        font-size: 0.2rem;
+        font-size: 0.3rem;
         margin-bottom: 10px;
         margin-top: 4px;
         color: rgba(0, 0, 0, 0.598);
@@ -767,17 +776,17 @@
 } 
 
 
-.booking .upper .room .info .map p {
-    font-size: 0.2rem;
-    margin-right: 10px;
-    color: rgb(94, 94, 255);
-    text-decoration: underline;
+
+.booking .upper .room .info .kilos {
+    font-size: 0.3rem;
+    color: rgba(0, 0, 0, 0.598);
+    margin-top: 10px;
+    display: block;
+    /* margin-right: 10px; */
 }
 
-
-.booking .upper .room .info .type p {
-    font-size: 0.2rem;
-    margin-right: 10px;
+.booking .upper .room .info .sepa {
+    display: none;
 }
 
 
@@ -794,22 +803,6 @@
     } 
 
         
-
-    .booking .upper .room .info .map p {
-        font-size: 0.1rem;
-    }
-
-
-    .booking .upper .room .info .type p {
-        font-size: 0.1rem;
-    }
-
-        
-
-    .booking .upper .condition p {
-        font-size: 0.1rem;
-    }
-
 
 
   }   

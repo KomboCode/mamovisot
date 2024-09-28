@@ -325,9 +325,9 @@ const Book = () => {
                                 <div className='type'>
                                     <FontAwesomeIcon icon={faUmbrellaBeach}    className='icon' />
                                     <p>Beachfront</p>
-                                    <p>{kilometers}</p>
+                                    <p className='sepa'>{kilometers}</p>
                                 </div>
-
+                                <p className='kilos'>{kilometers}</p>
                                 <div className='facilities'>
                                     <h4>{standard}</h4>
                                     <p>{bed}</p>
