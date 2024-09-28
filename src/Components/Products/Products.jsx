@@ -123,19 +123,7 @@ const Programs = () => {
           </div>
         </div>
 
-        <div className="program">
-          <img src={product_8} alt="Product 8" />
-          <div className="caption">
-            <h2>Chwaka Ruins</h2>
-          </div>
-        </div>
 
-        <div className="program">
-          <img src={product_9} alt="Product 9" />
-          <div className="caption">
-            <h2>Seafront Beach</h2>
-          </div>
-        </div>
       </Slider>
     </div>
   );

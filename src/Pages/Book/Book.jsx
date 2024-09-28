@@ -309,15 +309,27 @@ const Book = () => {
                             <div className='info'>
                                 <div className='words'>
                                     <h3>{title}</h3>
-                                    <div>
+
+
+                                    <div className='sami'>
                                     { list.map((ny) => {
                                         return (
-                                            <FontAwesomeIcon icon={faStar}    className='icon' />
+                                            <FontAwesomeIcon icon={faStar}    className='icon sulu' />
                                         )
                                     })}
                                     </div>
                                  
                                 </div>
+
+                                
+                                <div className='faru'>
+                                    { list.map((ny) => {
+                                        return (
+                                            <FontAwesomeIcon icon={faStar}    className='icon sua' />
+                                        )
+                                    })}
+                                    </div>
+
                                 <div className='map'>
                                     <p>Kiwengwa Beach</p>
                                     <p className='cupe'>Show on map</p>

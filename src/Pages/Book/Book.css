@@ -8,6 +8,8 @@
     display: flex;
 }
 
+
+
 .booking .upper .upleft {
     display: flex;
     justify-content: space-between;
@@ -155,11 +157,24 @@
     margin-right: 10px;
 }
 
+
+
+ 
+
 .booking .upper .room .info .words div .icon {
     color: rgb(255, 191, 0);
     font-size: 0.7rem;
     margin-left: 1px;
 }
+
+
+.booking .upper .room .info  .sua {
+    color: rgb(255, 191, 0);
+    font-size: 0.7rem;
+    margin-left: 1px;
+    display: none;
+}
+
 
 .booking .upper .room .info .words h3 {
     color: rgb(94, 94, 255);
@@ -809,6 +824,22 @@
     display: block;
     font-size: 0.3rem;
     margin-top: 8px;
+}
+
+.booking .upper .room .info  .icon {
+    display: none;
+}
+
+.booking .upper .room .info .faru {
+    display: flex;
+    margin-top: 6px;
+}
+
+.booking .upper .room .info  .sua {
+    color: rgb(255, 191, 0);
+    font-size: 0.4rem;
+    margin-left: 1px;
+    display: flex;
 }
 
 
