@@ -803,6 +803,22 @@
     } 
 
         
+    
+        
+    .booking .upper .room .info .map p {
+        font-size: 0.2rem;
+    }
+
+        
+    .booking .upper .room .info .type p {
+        font-size: 0.2rem;
+    }
+   
+
+
+    .booking .upper .condition p {
+        font-size: 0.2rem;
+    }
 
 
   }   
