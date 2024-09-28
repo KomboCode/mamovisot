@@ -783,15 +783,26 @@
 
   }
 
-/*  
   
 @media (max-width: 375px) {
          
     .booking .upper .room .photo {
-        width: 50px;
+        width: 90px;
         margin-right: 10px;
         margin-top: 10px;
         height: 160px;
     } 
 
-  }   */
+        
+
+    .booking .upper .room .info .map p {
+        font-size: 0.2rem;
+    }
+
+
+    .booking .upper .room .info .type p {
+        font-size: 0.2rem;
+    }
+
+
+  }   

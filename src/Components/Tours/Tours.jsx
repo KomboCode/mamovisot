@@ -76,7 +76,10 @@ const Tours = () => {
           </div>
         </div>
 
-        <div className="program">
+        <div 
+           className="program"
+           onClick={() => handleHotel(2)}
+           >
           <img src={tui_1} alt="Product 3" />
           <div className="captio">
           <h3>TZS 576,461</h3>
@@ -84,7 +87,10 @@ const Tours = () => {
           </div>
         </div>
         
-        <div className="program">
+        <div 
+           className="program"
+           onClick={() => handleHotel(3)}
+          >
           <img src={product_4} alt="Product 4" />
           <div className="captio">
             <h3>TZS 299,857</h3>
@@ -92,7 +98,10 @@ const Tours = () => {
           </div>
         </div>
 
-        <div className="program">
+        <div 
+           className="program"
+           onClick={() => handleHotel(4)}
+        >
           <img src={product_5} alt="Product 5" />
           <div className="captio">
             <h3>TZS 681,493</h3>
@@ -100,7 +109,10 @@ const Tours = () => {
           </div>
         </div>
 
-        <div className="program">
+        <div 
+           className="program"
+           onClick={() => handleHotel(5)}
+        >
           <img src={product_6} alt="Product 6" />
           <div className="captio">
             <h3>TZS 655,841</h3>
@@ -108,7 +120,10 @@ const Tours = () => {
           </div>
         </div>
 
-        <div className="program">
+        <div 
+          className="program"
+          onClick={() => handleHotel(6)}
+        >
           <img src={product_7} alt="Product 7" />
           <div className="captio">
             <h3>TZS 419,527</h3>
@@ -116,7 +131,10 @@ const Tours = () => {
           </div>
         </div>
 
-        <div className="program">
+        <div 
+          className="program"
+          onClick={() => handleHotel(7)}
+        >
           <img src={product_8} alt="Product 8" />
           <div className="captio">
             <h3>TZS 258,967</h3>
