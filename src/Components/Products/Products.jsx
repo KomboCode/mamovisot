@@ -73,35 +73,50 @@ const Programs = () => {
           </div>
         </div>
 
-        <div className="program">
+        <div 
+            className="program"
+            onClick={() => handlePlace(2)}
+          >
           <img src={product_3} alt="Product 3" />
           <div className="caption">
             <h2>Pujini Ruins</h2>
           </div>
         </div>
         
-        <div className="program">
+        <div 
+            className="program"
+            onClick={() => handlePlace(3)}
+            >
           <img src={product_4} alt="Product 4" />
           <div className="caption">
             <h2>Scuba Diving</h2>
           </div>
         </div>
 
-        <div className="program">
+        <div 
+             className="program"
+             onClick={() => handlePlace(4)}
+        >
           <img src={product_5} alt="Product 5" />
           <div className="caption">
             <h2>St. Joseph Cathedral</h2>
           </div>
         </div>
 
-        <div className="program">
+        <div 
+             className="program"
+             onClick={() => handlePlace(5)}
+        >
           <img src={product_6} alt="Product 6" />
           <div className="caption">
             <h2>Nkamandume Ruins</h2>
           </div>
         </div>
 
-        <div className="program">
+        <div 
+             className="program"
+             onClick={() => handlePlace(6)}
+        >
           <img src={product_7} alt="Product 7" />
           <div className="caption">
             <h2>Chake Chake</h2>

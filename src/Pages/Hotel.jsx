@@ -10,7 +10,7 @@ const Hotel = () => {
 
 
     const { single } = useContext(PlacesContext);
-    const { id, title, photo, second } = Places[single];
+    const { id, title, photo, second, head, hero, kichwa, about, middle, last } = Places[single];
 
     console.log("single", single);
 
@@ -20,10 +20,16 @@ const Hotel = () => {
         <section>
             <Placehero
                 photo={photo}
+                head={head}
+                hero={hero}
             />        
             <div className="container">
             <Placeabout 
                 photo={second}
+                kichwa={kichwa}
+                about={about}
+                middle={middle}
+                last={last}
             />
             </div>
 
