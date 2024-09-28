@@ -22,9 +22,7 @@ const Placehero = ({ photo, head, hero }) => {
       <div className="hero-text">
         <h1>{head}</h1>
          <p>{hero}</p>
-        <button className='btn'>
-          <Link to='campus' smooth={true} offset={-260} duration={500}>Explore more <img src={dark_arrow} alt='' /></Link> 
-        </button>
+      
       </div>
     </div>
   )
