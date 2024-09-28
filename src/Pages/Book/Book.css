@@ -752,15 +752,15 @@
 
   }
 
-/* 
+ 
   
 @media (max-width: 375px) {
          
     .booking .upper .room .photo {
-        width: 110px;
+        width: 50px;
         margin-right: 10px;
         margin-top: 10px;
         height: 160px;
     } 
 
-  }  */
+  }  
