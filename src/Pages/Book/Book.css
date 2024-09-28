@@ -796,13 +796,20 @@
         
 
     .booking .upper .room .info .map p {
-        font-size: 0.2rem;
+        font-size: 0.1rem;
     }
 
 
     .booking .upper .room .info .type p {
-        font-size: 0.2rem;
+        font-size: 0.1rem;
     }
+
+        
+
+    .booking .upper .condition p {
+        font-size: 0.1rem;
+    }
+
 
 
   }   
