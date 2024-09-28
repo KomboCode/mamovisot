@@ -308,7 +308,8 @@ const Book = () => {
                             </div>
                             <div className='info'>
                                 <div className='words'>
-                                    <h3>{title}</h3>
+                                    <h3 className='rafik'>{title}</h3>
+                                    <h3 className='rafi'>{title.slice(0, 12)}</h3>
                                     <div>
                                     { list.map((ny) => {
                                         return (

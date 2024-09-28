@@ -165,6 +165,11 @@
     color: rgb(94, 94, 255);
 }
 
+
+.booking .upper .room .info .rafi {
+    display: none;
+}
+
 .booking .upper .room .info .facilities h4 {
     font-size: 0.85rem;
     margin-top: 10px;
@@ -809,6 +814,14 @@
     margin-top: 8px;
 }
 
+
+.booking .upper .room .info .rafi {
+    display: block;
+}
+
+.booking .upper .room .info .rafik {
+    display: none;
+}
 
   }
 
