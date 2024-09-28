@@ -320,8 +320,9 @@ const Book = () => {
                                 </div>
                                 <div className='map'>
                                     <p>Kiwengwa Beach</p>
-                                    <p>Show on map</p>
+                                    <p className='cupe'>Show on map</p>
                                 </div>
+                                <p className='shon'>Show on map</p>
                                 <div className='type'>
                                     <FontAwesomeIcon icon={faUmbrellaBeach}    className='icon' />
                                     <p>Beachfront</p>

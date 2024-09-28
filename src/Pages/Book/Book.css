@@ -122,6 +122,15 @@
     text-decoration: underline;
 }
 
+
+.booking .upper .room .info .shon {
+    font-size: 0.9rem;
+    margin-right: 10px;
+    color: rgb(94, 94, 255);
+    text-decoration: underline;
+    display: none;
+}
+
 .booking .upper .room .info .type {
     display: flex;
     margin-top: 10px;
@@ -789,6 +798,17 @@
     display: none;
 }
 
+.booking .upper .room .info .cupe {
+    display: none;
+}
+
+
+.booking .upper .room .info .shon {
+    display: block;
+    font-size: 0.3rem;
+    margin-top: 8px;
+}
+
 
   }
 
@@ -820,5 +840,11 @@
         font-size: 0.2rem;
     }
 
+        
+    .booking .upper form .suggest .tit .stars {
+        font-size: 0.4rem;
+    }
+
+    
 
   }   

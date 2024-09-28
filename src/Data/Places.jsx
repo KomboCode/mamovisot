@@ -49,7 +49,6 @@ const Places = [
     {
         id: 3,
         title: "Pujini Ruins",
-        head: "Caterers display food items for sale in the park. The Indian Ocean can be seen in the background.",
         head: " Discover the Ancient Pujini Ruins in Chwaka, Zanzibar - A fascinating archaeological site believed to date back to the 15th century",
         hero: "The Pujini Ruins offer a glimpse into the island's past and provide an opportunity to explore the remains of a Shirazi palace or fortress.",
         kichwa: "The Pujini Ruins are an ancient archaeological site located on the island of Pemba,",
@@ -108,7 +107,6 @@ const Places = [
         title: "Chake chake",
         head: "A town located on the Tanzanian island of Pemba and capital of Chake Chake District.",
         hero: "It is in the centre of a deep indentation in the west coast called Chake-Chake Bay.", 
-        hero: "The church is regularly used by the local Catholic community, with several masses being held each Sunday and occasionally on weekdays.",
         kichwa: "Chake-Chake has a tropical climate, yet milder than Tanzania's mainland or Unguja island.",
         about: "Chake-Chake is historically the capital of Pemba Island,[3] and the seat of Pemba's court. Pemba's only airport is 7 km south-east of Chake-Chake. The Mkama Ndume ruins are close to the airport in Pujini village.",
         middle: " The average temperature in Chake-Chake is 25.5 °C or 77.9 °F. The average annual rainfall is 1,364 millimetres or 54 inches.",
