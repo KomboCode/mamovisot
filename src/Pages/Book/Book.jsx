@@ -448,6 +448,7 @@ const Book = () => {
 
                             <label>Mobile</label>
                             <PhoneInput
+                            className='phone'
                             international
                             placeholder="Enter phone number"
                             value={mobile}

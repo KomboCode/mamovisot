@@ -672,8 +672,37 @@
     border-radius: 7px;
     border: none;
     font-size: 0.7rem;
+    width: 230px;
 }
     
+
+
+.booking .upper form input {
+    margin-top: 5px;
+    padding: 0.4rem 0.6rem;
+    border-radius: 7px;
+    border: none;
+    width: 230px;
+}
+
+
+
+.booking .upper form .phone {
+    margin-top: 5px;
+    padding: 0.4rem 0.6rem;
+    border-radius: 7px;
+    border: none;
+    width: 240px;
+}
+
+
+.booking .upper form .selector {
+    margin-top: 5px;
+    padding: 0.4rem 0.6rem;
+    border-radius: 7px;
+    border: none;
+    width: 240px;
+}
 
 .booking .upper form button {
     margin-top: 25px;
@@ -686,6 +715,7 @@
     margin-bottom: 30px;
     margin-top: 40px;
     font-size: 0.6rem;
+    width: 230px;
 }
 
 
@@ -722,11 +752,12 @@
 
 .booking .upper form .init {
     background: #ffff;
-    padding: 0.7rem 0.6rem;
+    padding: 0.4rem 0.6rem;
     border-radius: 7px;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
+    width: 230px;
 }
 
 .booking .upper form .init h5 {
@@ -752,7 +783,7 @@
 
   }
 
- 
+/*  
   
 @media (max-width: 375px) {
          
@@ -763,4 +794,4 @@
         height: 160px;
     } 
 
-  }  
+  }   */

@@ -3,14 +3,15 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Tours.css';
-import tembo_1 from '../../assets/tembo_1.jpg';
-import mzingani_1 from '../../assets/mzingani_1.jpg';
-import tui_1 from '../../assets/tui_1.jpg';
-import product_4 from '../../assets/product-4.jpg';
-import product_5 from '../../assets/product-5.png';
-import product_6 from '../../assets/product-6.png';
-import product_7 from '../../assets/product-7.png';
-import product_8 from '../../assets/product-8.png';
+// import tembo_1 from '../../assets/z-logdge/one.jpg';
+import tembo_1 from '../../assets/z-lodge/one.jpg';
+import mzingani_1 from '../../assets/sipano/three.jpg';
+import tui_1 from '../../assets/kiwengwa/kiwe.png';
+import product_4 from '../../assets/marafiki/mara.png';
+import product_5 from '../../assets/imara/imara.png';
+import product_6 from '../../assets/zanblue/four.jpg';
+import product_7 from '../../assets/tembo/one.jpg';
+import product_8 from '../../assets/mzingani/one.jpg';
 import product_9 from '../../assets/product-9.jpg';
 import program_icon_1 from '../../assets/program-icon-1.png';
 import program_icon_2 from '../../assets/program-icon-2.png';
@@ -59,8 +60,8 @@ const Tours = () => {
           >
           <img src={tembo_1} alt="Product 1" />
           <div className="captio">
-            <h3>TZS 134,440 </h3>
-            <h2>Tembo House Hotel</h2>
+            <h3>TZS 106, 276</h3>
+            <h2>Z-Lodge Zanzibar</h2>
           </div>
         </div>
 
@@ -70,60 +71,59 @@ const Tours = () => {
         >
           <img src={mzingani_1} alt="Product 2" />
           <div className="captio">
-          <h3>TZS 134,440</h3>
-            <h2>Mzingani Seafront Hotel</h2>
+          <h3>TZS 145,976</h3>
+            <h2>Sipano Beach Lodge</h2>
           </div>
         </div>
 
         <div className="program">
           <img src={tui_1} alt="Product 3" />
           <div className="captio">
-          <h3>TZS 134,440</h3>
-            <h2>Tui Blue Bahari Hotel</h2>
+          <h3>TZS 576,461</h3>
+            <h2>Kiwengwa Beach Resort</h2>
           </div>
         </div>
         
         <div className="program">
           <img src={product_4} alt="Product 4" />
           <div className="captio">
-            <h2>Scuba Diving</h2>
+            <h3>TZS 299,857</h3>
+            <h2>Marafiki Bungalows</h2>
           </div>
         </div>
 
         <div className="program">
           <img src={product_5} alt="Product 5" />
           <div className="captio">
-            <h2>St. Joseph Cathedral</h2>
+            <h3>TZS 681,493</h3>
+            <h2>Imara Beach Resort</h2>
           </div>
         </div>
 
         <div className="program">
           <img src={product_6} alt="Product 6" />
           <div className="captio">
-            <h2>Nkamandume Ruins</h2>
+            <h3>TZS 655,841</h3>
+            <h2>Zanbluu Beach Hotel</h2>
           </div>
         </div>
 
         <div className="program">
           <img src={product_7} alt="Product 7" />
-          <div className="caption">
-            <h2>Chake Chake</h2>
+          <div className="captio">
+            <h3>TZS 419,527</h3>
+            <h2>Tembo House Hotel</h2>
           </div>
         </div>
 
         <div className="program">
           <img src={product_8} alt="Product 8" />
-          <div className="caption">
-            <h2>Chwaka Ruins</h2>
+          <div className="captio">
+            <h3>TZS 258,967</h3>
+            <h2>Mizingani Seafront Hotel</h2>
           </div>
         </div>
 
-        <div className="program">
-          <img src={product_9} alt="Product 9" />
-          <div className="caption">
-            <h2>Seafront Beach</h2>
-          </div>
-        </div>
       </Slider>
     </div>
   );
