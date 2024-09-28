@@ -63,12 +63,11 @@ const Places = [
     {
         id: 4,
         title: "Scuba Diving",
-        head: "Maruhubi Palace was built in 1881 by extravagant Sultan Barghash as pleasure house for his harem",
-        hero: "The Palace was surrounded by an extensive wall enclosure with a garden planted with a great variety of mango trees imported by Sultan Barghash from India.",
-        kichwa: "Jubilee Gardens and more recently as Forodhani Park",
-        about: "  The Gardens are especially busy after sunset, when tourists and local alike gather in a popular food street market in the main square, to have dinner enjoying Swahili and Zanzibari cuisine delicacies such as grilled seafood, samoosas, cassava and sweet potatoes.[2]",
-        middle: "  On July 31, 2009, a ground-breaking ceremony was held by the Aga Khan to introduce a revitalized park. It was rehabilitated by Aga Khan Trust for Culture (AKTC) at a cost of $3 million (Sh3.9 billion) from the initial estimates of $2.4 million (over Sh3 billion). ",
-        last: "The facelift involved the restoration of pedestrian walkways, landscape, infrastructure upgrading, incorporating lighting, sewerage drainage and civic amenities, and the rehabilitation of the seawall fronting the park.[3]",
+        head: "The entire One Ocean Diving Zanzibar team is looking forward to showing you the amazing and diverse underwater",
+        hero: "Since 1993, One Ocean has accompanied thousands of visitors either on unforgettable snorkeling and scuba diving adventures or learning to dive with PADI diving courses and the support of our professional team.",
+        kichwa: "Welcome to the diving center One Ocean Scuba Diving in Zanzibar",
+        about: "Since then, One Ocean has been developing and promoting the scuba diving culture on Zanzibar Island and providing local staff with the best opportunities; taking responsibility as PADI Dive Masters and PADI Instructors on land and in the water.",
+        middle: "In 2001 One Ocean became the first PADI 5 star dive center on Zanzibar Island and expanded our operations with centres and booking offices in Stone Town, Kiwengwa, Pwani Mchingani and Matemwe.",
         photo: Product_4,
         second: scuba_1,
 
