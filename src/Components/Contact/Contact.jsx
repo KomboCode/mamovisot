@@ -86,7 +86,7 @@ const Contact = () => {
               <img src={insta_icon} alt="" /> @zanzibaradventures
             </a>
           </li>
-          <li><img src={location_icon} alt="" />Plot xx, Street Name, Town Name<br/>
+          <li><img src={location_icon} alt="" />Mombasa Idriss, Kitwani Steet<br/>
           Zanzibar, Tanzania</li>
         </ul>
       </div>

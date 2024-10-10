@@ -18,6 +18,7 @@ import Footer from './Components/Footer/Footer';
 import Hotel from './Pages/Hotel';
 import { PlacesContextProvider } from './Contexts/PlacesContext';
 import Book from './Pages/Book/Book';
+import Drive from './Pages/Drive/Drive';
 
 
 const App = () => {
@@ -63,6 +64,7 @@ const App = () => {
               <Route exact path="/" element={<Home/>}/>
               <Route path="/hotel" element={<Hotel/>}/>
               <Route path="/book" element={<Book/>} />
+              <Route path="/cars" element={<Drive/>} />
             </Routes>
           </PlacesContextProvider>
         

@@ -6,6 +6,7 @@ import Campus from '../Components/Campus/Campus';
 import Brands from '../Components/Brands/Brands';
 import Tours from '../Components/Tours/Tours';
 import Hero from '../Components/Hero/Hero';
+import Cars from '../Components/Cars/Cars';
 
 
 const Home = () => {
@@ -19,19 +20,20 @@ const Home = () => {
     
             <Title subTitle="GALLERY" title="Our Team In Action" />
             <Campus />
-            <Title subTitle="OUR BRANDS" title=" Collaboration With Global Brands" />
-            <Brands />
-
+         
             
             <Title subTitle="HOTELS" title="Book Our Hotels" />
             <Tours /> 
+
+            
+            <Title subTitle="TRANSPORT" title="Cars Available" />
+            <Cars /> 
             
             <Title subTitle="CONTACT US" title="Get In Touch" />
             <Contact />
             </div>
 
         </section>
-
 
     )
 }
