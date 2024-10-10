@@ -54,16 +54,18 @@ const Cars = () => {
   return (
     <div className='cars programs-slider'>
       <Slider {...settings}>
+     
         <div 
-          className="program"
-          onClick={() => handleHotel(0)}
-          >
-          <img src={tembo_1} alt="Product 1" />
+           className="program"
+           onClick={() => handleHotel(2)}
+           >
+          <img src={product_4} alt="Product 4" />
           <div className="captio">
-            <h2>Luxury Fleet</h2>
+            <h2>Mini Van Fleet</h2>
           </div>
         </div>
 
+        
         <div 
            className="program"
           onClick={() => handleHotel(1)}
@@ -74,15 +76,17 @@ const Cars = () => {
           </div>
         </div>
 
+
         <div 
-           className="program"
-           onClick={() => handleHotel(2)}
-           >
-          <img src={product_4} alt="Product 4" />
+          className="program"
+          onClick={() => handleHotel(0)}
+          >
+          <img src={tembo_1} alt="Product 1" />
           <div className="captio">
-            <h2>Mini Van Fleet</h2>
+            <h2>Luxury Fleet</h2>
           </div>
         </div>
+
         
         <div 
            className="program"
