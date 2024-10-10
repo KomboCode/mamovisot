@@ -304,7 +304,10 @@ const Drive = () => {
                             <p>{reviews}</p>
                             {/* <h3>{rate}</h3> */}
                             <h4>{location}</h4>
-                            <p>{night}</p>
+
+                            <p className='sakur'>{night}</p>
+                            <p className='saku'>{night.slice(9, 24)}</p>
+
                             <h3>{price}</h3>
                             <p className='charge'>{charges}</p>
                             {/* <button>See availlability</button> */}
@@ -369,8 +372,9 @@ const Drive = () => {
                                                 <div className='tit'>
                                                         <p className='titl'>{sug.title}</p>
                                                     
-                                                        <p className='km'>{sug.kilometers}</p>
+                                                        <p className='km dojarr'>{sug.kilometers}</p>
                                                 
+                                                        <p className='km dojar'>{sug.kilometers.slice(0, 17)}</p>
                                                      
                                                         <p className='fast'>{sug.standard}</p>
 

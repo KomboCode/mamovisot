@@ -227,6 +227,11 @@
     align-items: flex-end;
 }
 
+
+.booking .saku {
+    display: none;
+}
+
 .booking .upper .condition :nth-child(1) {
     font-weight: normal;
 }
@@ -384,6 +389,11 @@
 }
 
 .booking .upper form .suggest .kiu {
+    display: none;
+}
+
+
+.booking .upper form .suggest .dojar {
     display: none;
 }
 
@@ -863,6 +873,25 @@
 }
 
 
+.booking .upper form .suggest .dojar {
+    display: block;
+}
+
+
+.booking .upper form .suggest .dojarr {
+    display: none;
+}
+
+
+.booking .saku {
+    display: block;
+}
+
+.booking .sakur {
+    display: none;
+}
+
+
   }
 
   
@@ -894,10 +923,19 @@
         font-size: 0.2rem;
     }
 
+    
+    
+
+    .booking .upper .condition .charge {
+        display: block;
+    }
+
+    
         
     .booking .upper form .suggest .tit .stars {
         font-size: 0.4rem;
     }
+
 
     
 
