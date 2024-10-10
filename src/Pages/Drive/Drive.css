@@ -383,6 +383,11 @@
     /* margin-top: -19px; */
 }
 
+.booking .upper form .suggest .kiu {
+    display: none;
+}
+
+
 .booking .upper form input {
     margin-top: 5px;
     padding: 0.7rem 0.6rem;
@@ -518,9 +523,6 @@
         margin-right: 30px;
     }
 
-    .booking .upper .condition .charge {
-        display: none;
-    }
 
     .booking .upper .upleft {
         margin-left: -40px;
@@ -718,6 +720,7 @@
     border-radius: 7px;
     border: none;
     width: 230px;
+    font-size: 0.5rem;
 }
 
 
@@ -737,6 +740,7 @@
     border-radius: 7px;
     border: none;
     width: 240px;
+    font-size: 0.6rem;
 }
 
 .booking .upper form button {
@@ -762,18 +766,18 @@
 
 .booking .upper .condition :nth-child(3) {
     font-size: 0.6rem;
-    padding: 5px 5px;
+    padding: 0px 0px;
 } 
 
 .booking .upper .condition :nth-child(4) {
     color: rgb(94, 94, 255);
     margin-top: 4px;
-    font-size: 0.4rem;
+    font-size: 0.2rem;
 }
 
-.booking .upper .condition :nth-child(6) {
+.booking .upper .condition :nth-child(5) {
     font-weight: normal;
-    font-size: 0.5rem;
+    font-size: 0.4rem;
 } 
 
 
@@ -811,13 +815,14 @@
     /* margin-right: 10px; */
 }
 
+/* 
 .booking .upper .room .info .sepa {
     display: none;
 }
 
 .booking .upper .room .info .cupe {
     display: none;
-}
+} */
 
 
 .booking .upper .room .info .shon {
@@ -825,10 +830,10 @@
     font-size: 0.3rem;
     margin-top: 8px;
 }
-
+/* 
 .booking .upper .room .info  .icon {
     display: none;
-}
+} */
 
 .booking .upper .room .info .faru {
     display: flex;
@@ -841,9 +846,19 @@
     margin-left: 1px;
     display: flex;
 }
-
+/* 
 
 .booking .upper .room .reserva {
+    display: none;
+} */
+
+
+.booking .upper form .suggest .kiu {
+    display: block;
+}
+
+
+.booking .upper form .suggest .kiup {
     display: none;
 }
 
@@ -861,6 +876,7 @@
     } 
 
         
+    
     
         
     .booking .upper .room .info .map p {

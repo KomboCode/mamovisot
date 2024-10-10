@@ -24,7 +24,7 @@ const Drive = () => {
     const { one, two, three, four } = others; 
     const [ picha, setPicha ] = useState(one);
     const [ suggest, setSuggest ] = useState(Hotels);
-    const [ name, setName ] = useState("CHOOSE HOTEL OR SEARCH BY NAME");
+    const [ name, setName ] = useState("PICK A CAR OR SEARCH BY NAME");
     const [ show, setShow ] = useState(false);
 
     const options = useMemo(() => countryList().getData(), []);
@@ -316,7 +316,7 @@ const Drive = () => {
                                       
                     <form>
                            
-                            <label className='choos'>Choose Hotel</label>
+                            <label className='choos'>Choose Transport</label>
                            
                             <div 
                                 className='init' 
@@ -334,7 +334,7 @@ const Drive = () => {
                             <input  
                                 className='sug' 
                                 onChange={(e) => handleSuggest(e.target.value)}
-                                placeholder='CHOOSE HOTEL OR SEARCH BY NAME'
+                                placeholder='CHOOSE TRANSPORT OR SEARCH BY NAME'
                                 ref={ref}
                                 style={ show ? {
                                     opacity: 1
@@ -382,7 +382,8 @@ const Drive = () => {
                                                 <h4>{sug.good}</h4>
                                                 <p>{sug.reviews}</p>
                                                 <h3>{sug.price}</h3>
-                                                <p>{sug.night}</p>
+                                                <p className='kiup'>{sug.night}</p>
+                                                <p className='kiu'>{sug.night.slice(9,24 )}</p>
                                             </div>
                                          
                                         </div>
