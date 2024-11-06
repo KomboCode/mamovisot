@@ -6,46 +6,39 @@ const About = () => {
   return (
     <div className="about">
       <div className="about-left">
-        <img src={about_img} alt="about image" className='about-img' />
+        {/* <video width="700px" height="400px" controls>
+          <source src='https://d1vpmwlygrv24c.cloudfront.net/slavery.mp4' type='video/mp4'/>
+        </video> */}
+        <img src={about_img} className='about-img'/>
       </div>
       
       <div className="about-right">
-        <h3>ABOUT ZANZIBAR ADVENTURES</h3>
-        <h2>Why Visit Zanzibar?</h2>
+        <h3>ABOUT MANEMOVIES STORE</h3>
+        <h2>Why Visit Manemovies Store?</h2>
 
+      
         <p>
-        Zanzibar is the home of idyllic beaches, balmy weather & warm tropical waters.
-        This archipelago is renowned for clear warm waters, coral reefs and 
-        rich marine diversity
-        </p>
-        <p>
-         Making it a perfect under-water destination for snorkelling and diving. 
-         If it is lazy days along white sandy beaches that you are 
-         after - Zanzibar is hard to beat. 
-        </p>
-
-        <p>
-          But, in addition to the perfect beach destination, Zanzibar is also full 
-          of options for nature lovers, culture vultures, and adventurers.
+        Manemovies Store offers a vast collection of movies and TV shows to watch online to satisfy even the
+         most discriminating movie buff. 
         </p>
        
         <p>
-        Zanzibar is not only renowned for its stunning beaches and historical landmarks 
-        but also for its lively entertainment.
+        Whether you're looking for the latest bongo movies Nigerian Nollywood, Trending Movies 
+        or romance movies to add to your collection, you will find them 
+        in our Movie section.
         </p>
+
+       
+       <p>
+          Browse our wide selection of new and used movies from any genre to find your
+          next favorite movie or rewatch the greatest hits with your family.
+          Watch Movies online now from Manemovies Store.
+       </p>
 
         <p>
        
         </p>
 
-        <p>
-        Immerse yourself in Zanzibar's captivating cultural and heritage events,
-         offering a unique and unforgettable experience.
-         Delve into Zanzibar's rich heritage through major historical and 
-         political events that shaped the island's identity. 
-         Explore Zanzibar's vibrant expos and exhibitions, unveiling opportunities
-         for business and tourism.
-        </p>
        
       </div>
     </div>

@@ -72,22 +72,22 @@ const Contact = () => {
         <ul>
           <li>
             <a href="mailto:sales@borachee.co.tz" target='_blank'>    
-              <img src={mail_icon} alt="" />info@zanzibaradventures.co.tz
+              <img src={mail_icon} alt="" />info@manemovies.co.tz
             </a>
           </li>
-          <li><img src={phone_icon} alt="" />+255 673 065 603</li>
+          <li><img src={phone_icon} alt="" />+255 655 091 618</li>
           <li>
             <a href="https://wa.link/ba03zv" target='_blank'>
-              <img src={whatsapp_icon} alt="" />+255 787 475 951
+              <img src={whatsapp_icon} alt="" />+255 655 091 618
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com/borachee_tz/" target='_blank'>
-              <img src={insta_icon} alt="" /> @zanzibaradventures
+              <img src={insta_icon} alt="" /> @manemovies
             </a>
           </li>
-          <li><img src={location_icon} alt="" />Mombasa Idriss, Kitwani Steet<br/>
-          Zanzibar, Tanzania</li>
+          <li><img src={location_icon} alt="" />Viwandani Airport, Samora Street<br/>
+          Dodoma, Tanzania</li>
         </ul>
       </div>
       <div className="contact-col">

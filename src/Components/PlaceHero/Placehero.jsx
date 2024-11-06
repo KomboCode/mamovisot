@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 
 
-const Placehero = ({ photo, head, hero }) => {
+const Placehero = ({ photo, head, hero, url }) => {
 
     
 
@@ -20,9 +20,12 @@ const Placehero = ({ photo, head, hero }) => {
            }
     >
       <div className="hero-text">
-        <h1>{head}</h1>
-         <p>{hero}</p>
-      
+        {/* <h1>{head}</h1> */}
+         {/* <p>{hero.slice(0,20)}</p> */}
+         <video width="700px" height="400px" controls className='vid'>
+          <source src={url} type='video/mp4'/>
+        </video>      
+
       </div>
     </div>
   )

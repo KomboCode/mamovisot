@@ -10,7 +10,7 @@ const Hotel = () => {
 
 
     const { single } = useContext(PlacesContext);
-    const { id, title, photo, second, head, hero, kichwa, about, middle, last } = Places[single];
+    const { id, title, url, photo, second, head, hero, kichwa, about, middle, last } = Places[single];
 
     console.log("single", single);
 
@@ -22,6 +22,7 @@ const Hotel = () => {
                 photo={photo}
                 head={head}
                 hero={hero}
+                url={url}
             />        
             <div className="container">
             <Placeabout 

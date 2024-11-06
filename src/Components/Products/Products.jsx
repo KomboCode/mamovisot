@@ -3,10 +3,10 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Products.css';
-import product_1 from '../../assets/product-1.jpg';
-import product_2 from '../../assets/product-2.jpg';
+import product_1 from '../../assets/movies/thekiller.png';
+import product_4 from '../../assets/movies/beautyandmr.png';
 import product_3 from '../../assets/product-3.png';
-import product_4 from '../../assets/product-4.jpg';
+import product_2 from '../../assets/product-4.png';
 import product_5 from '../../assets/product-5.png';
 import product_6 from '../../assets/product-6.png';
 import product_7 from '../../assets/product-7.png';
@@ -21,6 +21,8 @@ import { useNavigate } from 'react-router-dom';
 const Programs = () => {
 
   const Navigate = useNavigate();
+
+  
   const { handleSingle } = useContext(PlacesContext);
 
 
@@ -59,7 +61,7 @@ const Programs = () => {
           >
           <img src={product_1} alt="Product 1" />
           <div className="caption">
-            <h2>Forodhani Garden</h2>
+            <h2>The Killer</h2>
           </div>
         </div>
 
@@ -69,7 +71,7 @@ const Programs = () => {
         >
           <img src={product_2} alt="Product 2" />
           <div className="caption">
-            <h2>Maruhubi Ruins</h2>
+            <h2>Eyes In The Sky</h2>
           </div>
         </div>
 
@@ -79,7 +81,7 @@ const Programs = () => {
           >
           <img src={product_3} alt="Product 3" />
           <div className="caption">
-            <h2>Pujini Ruins</h2>
+            <h2>12 Years Of Slave</h2>
           </div>
         </div>
         
@@ -89,7 +91,7 @@ const Programs = () => {
             >
           <img src={product_4} alt="Product 4" />
           <div className="caption">
-            <h2>Scuba Diving</h2>
+            <h2>Beauty And Mr Romantic</h2>
           </div>
         </div>
 
@@ -99,30 +101,11 @@ const Programs = () => {
         >
           <img src={product_5} alt="Product 5" />
           <div className="caption">
-            <h2>St. Joseph Cathedral</h2>
+            <h2>Deadpool & Wolverine</h2>
           </div>
         </div>
 
-        <div 
-             className="program"
-             onClick={() => handlePlace(5)}
-        >
-          <img src={product_6} alt="Product 6" />
-          <div className="caption">
-            <h2>Nkamandume Ruins</h2>
-          </div>
-        </div>
-
-        <div 
-             className="program"
-             onClick={() => handlePlace(6)}
-        >
-          <img src={product_7} alt="Product 7" />
-          <div className="caption">
-            <h2>Chake Chake</h2>
-          </div>
-        </div>
-
+      
 
       </Slider>
     </div>

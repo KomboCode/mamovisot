@@ -15,18 +15,18 @@ const Home = () => {
             <Hero/>            
             <div className="container">
             <About />
-            <Title subTitle="TOUR GUIDE" title="Places To Visit" />
+            <Title subTitle="Movie Collection" title="Movies To Watch" />
             <Products />
     
-            <Title subTitle="GALLERY" title="Our Team In Action" />
+            <Title subTitle="Upcoming Movies" title="Upcoming releases 2025" />
             <Campus />
          
             
-            <Title subTitle="HOTELS" title="Book Our Hotels" />
+            <Title subTitle="TRENDS" title="Most Watched Movies" />
             <Tours /> 
 
             
-            <Title subTitle="TRANSPORT" title="Cars Available" />
+            <Title subTitle="Series" title="Television Show" />
             <Cars /> 
             
             <Title subTitle="CONTACT US" title="Get In Touch" />

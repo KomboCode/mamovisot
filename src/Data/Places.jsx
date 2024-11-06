@@ -1,14 +1,24 @@
 import Product_1 from '../assets/product-1.jpg';
-import Product_2 from '../assets/product-2.jpg';
+import Product_2 from '../assets/movies/beautyandmr.png';
 import Forodhani_2 from '../assets/forodhani_2.jpg';
 import mahurubi_1 from '../assets/mahurubi_1.jpg';
 import pujini_1 from '../assets/pujini_1.jpg';
 import Product_3 from '../assets/product-3.png';
-import Product_4 from '../assets/product-4.jpg';
+import Product_4 from '../assets/product-4.png';
 import scuba_1 from '../assets/scuba_1.jpg';
-import Product_5 from '../assets/product-5.png';
-import Product_6 from '../assets/product-6.png';
-import Product_7 from '../assets/product-7.png';
+import Product_5 from '../assets/trends/deadpool.png';
+import Product_6 from '../assets/trends/darkness.jpg';
+// import Product_7 from '../assets/product-7.png';
+import Product_7 from '../assets/trends/moon.png';
+import Product_8 from '../assets/series/kingdom.png';
+import Product_9 from '../assets/series/baadook.png';
+import Product_10 from '../assets/series/heavenly.png';
+import Product_11 from '../assets/series/school.png';
+
+
+
+
+
 
 
 
@@ -18,15 +28,15 @@ const Places = [
 
     {
         id: 1,
-        title: "Forodhani Gargen",
+        title: "The Killer",
         head: "Caterers display food items for sale in the park. The Indian Ocean can be seen in the background.",
         hero: "The Forodhani Gardens (also known as Jubilee Gardens and more recently as Forodhani Park)[1] is a small park in the historical city of Stone Town, Zanzibar, Tanzania. The gardens are located along the main seawalk of Stone Town, just in front of the most famous buildings of Stone Town, i.e., the House of Wonders and the Old Fort.",
-        kichwa: "Jubilee Gardens and more recently as Forodhani Park",
-        about: "  The Gardens are especially busy after sunset, when tourists and local alike gather in a popular food street market in the main square, to have dinner enjoying Swahili and Zanzibari cuisine delicacies such as grilled seafood, samoosas, cassava and sweet potatoes.[2]",
-        middle: "  On July 31, 2009, a ground-breaking ceremony was held by the Aga Khan to introduce a revitalized park. It was rehabilitated by Aga Khan Trust for Culture (AKTC) at a cost of $3 million (Sh3.9 billion) from the initial estimates of $2.4 million (over Sh3 billion). ",
-        last: "The facelift involved the restoration of pedestrian walkways, landscape, infrastructure upgrading, incorporating lighting, sewerage drainage and civic amenities, and the rehabilitation of the seawall fronting the park.[3]",
+        kichwa: "The Killer 2024",
+        about: "Karibu Manemoves Store ujipatie Movie Kali zilizo tafsiriwa ma dj bigwa kabisa kutoka nchini Tanzania.",
+        middle: "Manemovie Store ndipo mahali pekee ambapo unaweza jipatia movie mpya ambazo hazina muda mrefu tangu zimeachiliwa Au kama unahitaji huduma zetu nyingine unaweza kufika ofisi zetu kwajili ya maelekezo zaidi au kama unahitaji movie hii ipo na inapatikana muda wote. Na kama unahitaji kuuziwa kwa jumla pia tunakukaribisha",
         photo: Product_1,
-        second: Forodhani_2,
+        second: Product_1,
+        url: "https://d1vpmwlygrv24c.cloudfront.net/killer.mp4",
 
     },
 
@@ -34,14 +44,16 @@ const Places = [
     
     {
         id: 2,
-        title: "Maruhubi Ruins",
+        title: "Eyes In The Sky",
         head: "Maruhubi Palace was built in 1881 by extravagant Sultan Barghash as pleasure house for his harem",
         hero: "The Palace was surrounded by an extensive wall enclosure with a garden planted with a great variety of mango trees imported by Sultan Barghash from India.",
-        kichwa: "Built by Sultan Barghash in 1880 as a day retreat for him",
-        about: " This palace had large Persian baths, the only part of the structure left with a roof. It burned down in 1899.",
-        middle: "Located on the Bububu road, just outside of town, it’s a popular first stop on the way to Spice Tour. The gardens still have coconut trees and there are old pools full of lily pads, leftover columns and wandering cows. It’s a pretty site on the ocean.",
-        photo: Product_2,
-        second: mahurubi_1,
+        kichwa: "Eyes In The Sky",
+        about: "Karibu Manemoves Store ujipatie Movie Kali zilizo tafsiriwa ma dj bigwa kabisa kutoka nchini Tanzania.",
+        middle: "Manemovie Store ndipo mahali pekee ambapo unaweza jipatia movie mpya ambazo hazina muda mrefu tangu zimeachiliwa Au kama unahitaji huduma zetu nyingine unaweza kufika ofisi zetu kwajili ya maelekezo zaidi au kama unahitaji movie hii ipo na inapatikana muda wote. Na kama unahitaji kuuziwa kwa jumla pia tunakukaribisha",
+        photo: Product_4,
+        second: Product_4,
+        url: "https://d1vpmwlygrv24c.cloudfront.net/beauty.mp4",
+
 
     },
 
@@ -51,11 +63,13 @@ const Places = [
         title: "Pujini Ruins",
         head: " Discover the Ancient Pujini Ruins in Chwaka, Zanzibar - A fascinating archaeological site believed to date back to the 15th century",
         hero: "The Pujini Ruins offer a glimpse into the island's past and provide an opportunity to explore the remains of a Shirazi palace or fortress.",
-        kichwa: "The Pujini Ruins are an ancient archaeological site located on the island of Pemba,",
-        about: "The ruins are believed to date back to the 15th century and are thought to have been a palace or fortress of the Shirazi people, who were traders and settlers from the Persian Gulf region. The ruins are a testament to the rich history and cultural heritage of the island of Pemba.",
-        middle: "The Pujini Ruins offer a glimpse into the island's past and provide an opportunity to explore the archaeological site. Visitors can explore the ruins and see the various structures that remain, including walls, archways, and buildings. Additionally, there is a small museum on site that provides more information about the history of the ruins and the island.",
+        kichwa: "12 Years Of Slave",
+        about: "Karibu Manemoves Store ujipatie Movie Kali zilizo tafsiriwa ma dj bigwa kabisa kutoka nchini Tanzania.",
+        middle: "Manemovie Store ndipo mahali pekee ambapo unaweza jipatia movie mpya ambazo hazina muda mrefu tangu zimeachiliwa Au kama unahitaji huduma zetu nyingine unaweza kufika ofisi zetu kwajili ya maelekezo zaidi au kama unahitaji movie hii ipo na inapatikana muda wote. Na kama unahitaji kuuziwa kwa jumla pia tunakukaribisha",
         photo: Product_3,
-        second: pujini_1,
+        second: Product_3,
+        url: "https://d1vpmwlygrv24c.cloudfront.net/slavery.mp4",
+
 
     },
 
@@ -65,11 +79,12 @@ const Places = [
         title: "Scuba Diving",
         head: "The entire One Ocean Diving Zanzibar team is looking forward to showing you the amazing and diverse underwater",
         hero: "Since 1993, One Ocean has accompanied thousands of visitors either on unforgettable snorkeling and scuba diving adventures or learning to dive with PADI diving courses and the support of our professional team.",
-        kichwa: "Welcome to the diving center One Ocean Scuba Diving in Zanzibar",
-        about: "Since then, One Ocean has been developing and promoting the scuba diving culture on Zanzibar Island and providing local staff with the best opportunities; taking responsibility as PADI Dive Masters and PADI Instructors on land and in the water.",
-        middle: "In 2001 One Ocean became the first PADI 5 star dive center on Zanzibar Island and expanded our operations with centres and booking offices in Stone Town, Kiwengwa, Pwani Mchingani and Matemwe.",
-        photo: Product_4,
-        second: scuba_1,
+        kichwa: "Beauty And Mr Romantic",
+        about: "Karibu Manemoves Store ujipatie Movie Kali zilizo tafsiriwa ma dj bigwa kabisa kutoka nchini Tanzania.",
+        middle: "Manemovie Store ndipo mahali pekee ambapo unaweza jipatia movie mpya ambazo hazina muda mrefu tangu zimeachiliwa Au kama unahitaji huduma zetu nyingine unaweza kufika ofisi zetu kwajili ya maelekezo zaidi au kama unahitaji movie hii ipo na inapatikana muda wote. Na kama unahitaji kuuziwa kwa jumla pia tunakukaribisha",
+        photo: Product_2,
+        second: Product_2,
+        url: "https://d1vpmwlygrv24c.cloudfront.net/beauty.mp4",
 
     },
 
@@ -79,43 +94,110 @@ const Places = [
         title: "St. Joseph Cathedral",
         head: "The Roman Catholic cathedral of St. Joseph is one of the most important historical buildings in Stone Town.",
         hero: "The church is regularly used by the local Catholic community, with several masses being held each Sunday and occasionally on weekdays.",
-        kichwa: " One of the main visitors attraction in Zanzibar.",
-        about: "  The church is located in the Baghani area, off Kenyatta road.[1] While its twin spires are easily seen from a distance and from elevated places in Stone Town (i.e., the House of Wonders balconies), the church itself can prove hard to find in the maze of narrow streets of Baghani.",
-        middle: "The easiest route to the church is following Kenyatta Road to Gizenga Street and then taking the first street on the right.[2]History",
-        last: "The church was built by French missionaries between 1893 and 1898. The design of the church was based on that of the Marseille Cathedral,[3] and in fact the two churches bear some resemblance to each other, the Stone Town cathedral being much smaller. ",
+        kichwa: "Deadpool & Wolverine",
+        about: "Karibu Manemoves Store ujipatie Movie Kali zilizo tafsiriwa ma dj bigwa kabisa kutoka nchini Tanzania.",
+        middle: "Manemovie Store ndipo mahali pekee ambapo unaweza jipatia movie mpya ambazo hazina muda mrefu tangu zimeachiliwa Au kama unahitaji huduma zetu nyingine unaweza kufika ofisi zetu kwajili ya maelekezo zaidi au kama unahitaji movie hii ipo na inapatikana muda wote. Na kama unahitaji kuuziwa kwa jumla pia tunakukaribisha",
         photo: Product_5,
         second: Product_5,
+        url: "https://d1vpmwlygrv24c.cloudfront.net/eyesky.mp4",
     },
 
-        
+    
+    
+     
     {
         id: 6,
-        title: "Nkamandume Ruins",
-        head: "  Discover the Rich History and Culture of the Swahili People at the Mkama Ndume Ruins in Pemba Island, Tanzania. ",
+        title: "Darkness Of Man",
+        head: "The Roman Catholic cathedral of St. Joseph is one of the most important historical buildings in Stone Town.",
         hero: "The church is regularly used by the local Catholic community, with several masses being held each Sunday and occasionally on weekdays.",
-        kichwa: "Mkama Ndume Ruins are a fascinating archaeological site in Pemba Island",
-        about: "Explore the remains of an ancient Swahili settlement, dating back to the 13th century, and learn about the unique architecture and daily life of the Swahili people. With stunning views of the Indian Ocean and a fascinating history, the Mkama Ndume Ruins are a must-see destination for anyone visiting Pemba Island.",
-        middle: "  Mkama Ndume Ruins offer visitors a glimpse into the rich history and culture of the Swahili people who once inhabited this region. The ruins consist of the remains of several stone structures, including a mosque, a palace, and a series of tombs. The structures are made from coral stone, which is a common building material in this part of the world.",
+        kichwa: "Darkness Of Man",
+        about: "Karibu Manemoves Store ujipatie Movie Kali zilizo tafsiriwa ma dj bigwa kabisa kutoka nchini Tanzania.",
+        middle: "Manemovie Store ndipo mahali pekee ambapo unaweza jipatia movie mpya ambazo hazina muda mrefu tangu zimeachiliwa Au kama unahitaji huduma zetu nyingine unaweza kufika ofisi zetu kwajili ya maelekezo zaidi au kama unahitaji movie hii ipo na inapatikana muda wote. Na kama unahitaji kuuziwa kwa jumla pia tunakukaribisha",
         photo: Product_6,
         second: Product_6,
+        url: "https://d1vpmwlygrv24c.cloudfront.net/eyesky.mp4",
     },
 
-           
+
+    
+     
     {
         id: 7,
-        title: "Chake chake",
-        head: "A town located on the Tanzanian island of Pemba and capital of Chake Chake District.",
-        hero: "It is in the centre of a deep indentation in the west coast called Chake-Chake Bay.", 
-        kichwa: "Chake-Chake has a tropical climate, yet milder than Tanzania's mainland or Unguja island.",
-        about: "Chake-Chake is historically the capital of Pemba Island,[3] and the seat of Pemba's court. Pemba's only airport is 7 km south-east of Chake-Chake. The Mkama Ndume ruins are close to the airport in Pujini village.",
-        middle: " The average temperature in Chake-Chake is 25.5 °C or 77.9 °F. The average annual rainfall is 1,364 millimetres or 54 inches.",
+        title: "Rabel Moon Part: 2",
+        head: "The Roman Catholic cathedral of St. Joseph is one of the most important historical buildings in Stone Town.",
+        hero: "The church is regularly used by the local Catholic community, with several masses being held each Sunday and occasionally on weekdays.",
+        kichwa: "Rebel Moon Part: 2",
+        about: "Karibu Manemoves Store ujipatie Movie Kali zilizo tafsiriwa ma dj bigwa kabisa kutoka nchini Tanzania.",
+        middle: "Manemovie Store ndipo mahali pekee ambapo unaweza jipatia movie mpya ambazo hazina muda mrefu tangu zimeachiliwa Au kama unahitaji huduma zetu nyingine unaweza kufika ofisi zetu kwajili ya maelekezo zaidi au kama unahitaji movie hii ipo na inapatikana muda wote. Na kama unahitaji kuuziwa kwa jumla pia tunakukaribisha",
         photo: Product_7,
         second: Product_7,
+        url: "https://d1vpmwlygrv24c.cloudfront.net/eyesky.mp4",
     },
 
     
-    
-    
+     
+     
+    {
+        id: 8,
+        title: "Three Kingdoms",
+        head: "The Roman Catholic cathedral of St. Joseph is one of the most important historical buildings in Stone Town.",
+        hero: "The church is regularly used by the local Catholic community, with several masses being held each Sunday and occasionally on weekdays.",
+        kichwa: "Three Kingdoms",
+        about: "Karibu Manemoves Store ujipatie Movie Kali zilizo tafsiriwa ma dj bigwa kabisa kutoka nchini Tanzania.",
+        middle: "Manemovie Store ndipo mahali pekee ambapo unaweza jipatia movie mpya ambazo hazina muda mrefu tangu zimeachiliwa Au kama unahitaji huduma zetu nyingine unaweza kufika ofisi zetu kwajili ya maelekezo zaidi au kama unahitaji movie hii ipo na inapatikana muda wote. Na kama unahitaji kuuziwa kwa jumla pia tunakukaribisha",
+        photo: Product_8,
+        second: Product_8,
+        url: "https://d1vpmwlygrv24c.cloudfront.net/eyesky.mp4",
+    },
+
+
+     
+     
+    {
+        id: 9,
+        title: "Bekaboo",
+        head: "The Roman Catholic cathedral of St. Joseph is one of the most important historical buildings in Stone Town.",
+        hero: "The church is regularly used by the local Catholic community, with several masses being held each Sunday and occasionally on weekdays.",
+        kichwa: "Bekaboo",
+        about: "Karibu Manemoves Store ujipatie Movie Kali zilizo tafsiriwa ma dj bigwa kabisa kutoka nchini Tanzania.",
+        middle: "Manemovie Store ndipo mahali pekee ambapo unaweza jipatia movie mpya ambazo hazina muda mrefu tangu zimeachiliwa Au kama unahitaji huduma zetu nyingine unaweza kufika ofisi zetu kwajili ya maelekezo zaidi au kama unahitaji movie hii ipo na inapatikana muda wote. Na kama unahitaji kuuziwa kwa jumla pia tunakukaribisha",
+        photo: Product_9,
+        second: Product_9,
+        url: "https://d1vpmwlygrv24c.cloudfront.net/eyesky.mp4",
+    },
+
+
+     
+     
+    {
+        id: 10,
+        title: "The Heavenly Idol",
+        head: "The Roman Catholic cathedral of St. Joseph is one of the most important historical buildings in Stone Town.",
+        hero: "The church is regularly used by the local Catholic community, with several masses being held each Sunday and occasionally on weekdays.",
+        kichwa: "The Heavenly Idol",
+        about: "Karibu Manemoves Store ujipatie Movie Kali zilizo tafsiriwa ma dj bigwa kabisa kutoka nchini Tanzania.",
+        middle: "Manemovie Store ndipo mahali pekee ambapo unaweza jipatia movie mpya ambazo hazina muda mrefu tangu zimeachiliwa Au kama unahitaji huduma zetu nyingine unaweza kufika ofisi zetu kwajili ya maelekezo zaidi au kama unahitaji movie hii ipo na inapatikana muda wote. Na kama unahitaji kuuziwa kwa jumla pia tunakukaribisha",
+        photo: Product_10,
+        second: Product_10,
+        url: "https://d1vpmwlygrv24c.cloudfront.net/eyesky.mp4",
+    },
+
+
+  
+     
+    {
+        id: 11,
+        title: "Love School",
+        head: "The Roman Catholic cathedral of St. Joseph is one of the most important historical buildings in Stone Town.",
+        hero: "The church is regularly used by the local Catholic community, with several masses being held each Sunday and occasionally on weekdays.",
+        kichwa: "Love School",
+        about: "Karibu Manemoves Store ujipatie Movie Kali zilizo tafsiriwa ma dj bigwa kabisa kutoka nchini Tanzania.",
+        middle: "Manemovie Store ndipo mahali pekee ambapo unaweza jipatia movie mpya ambazo hazina muda mrefu tangu zimeachiliwa Au kama unahitaji huduma zetu nyingine unaweza kufika ofisi zetu kwajili ya maelekezo zaidi au kama unahitaji movie hii ipo na inapatikana muda wote. Na kama unahitaji kuuziwa kwa jumla pia tunakukaribisha",
+        photo: Product_11,
+        second: Product_11,
+        url: "https://d1vpmwlygrv24c.cloudfront.net/eyesky.mp4",
+    },
+
 
 
     

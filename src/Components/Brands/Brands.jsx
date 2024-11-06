@@ -1,9 +1,6 @@
 import React from 'react';
 import './Brands.css';
 
-import brand_1 from '../../assets/brand_1.jfif';
-import brand_2 from '../../assets/brand_2.jfif';
-import brand_3 from '../../assets/brand_3.png';
 
 const Brands = () => {
   return (
