@@ -56,6 +56,12 @@
   opacity: 1; /* Ensure arrows are visible */
 }
 
+
+.viewall {
+  cursor: pointer;
+  margin-top: 20px;
+}
+
 /* ------ MEDIA QUERY ------ */
 @media (max-width: 650px) {
   .program {

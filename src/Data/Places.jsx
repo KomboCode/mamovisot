@@ -52,7 +52,7 @@ const Places = [
         middle: "Manemovie Store ndipo mahali pekee ambapo unaweza jipatia movie mpya ambazo hazina muda mrefu tangu zimeachiliwa Au kama unahitaji huduma zetu nyingine unaweza kufika ofisi zetu kwajili ya maelekezo zaidi au kama unahitaji movie hii ipo na inapatikana muda wote. Na kama unahitaji kuuziwa kwa jumla pia tunakukaribisha",
         photo: Product_4,
         second: Product_4,
-        url: "https://d1vpmwlygrv24c.cloudfront.net/manestore.m4v ",
+        url: "https://d1vpmwlygrv24c.cloudfront.net/handbrake.m4v ",
 
 
     },
@@ -84,7 +84,7 @@ const Places = [
         middle: "Manemovie Store ndipo mahali pekee ambapo unaweza jipatia movie mpya ambazo hazina muda mrefu tangu zimeachiliwa Au kama unahitaji huduma zetu nyingine unaweza kufika ofisi zetu kwajili ya maelekezo zaidi au kama unahitaji movie hii ipo na inapatikana muda wote. Na kama unahitaji kuuziwa kwa jumla pia tunakukaribisha",
         photo: Product_2,
         second: Product_2,
-        url: "https://d1vpmwlygrv24c.cloudfront.net/beauty.mp4",
+        url: "https://d1vpmwlygrv24c.cloudfront.net/from eposod two.m4v",
 
     },
 
@@ -99,7 +99,7 @@ const Places = [
         middle: "Manemovie Store ndipo mahali pekee ambapo unaweza jipatia movie mpya ambazo hazina muda mrefu tangu zimeachiliwa Au kama unahitaji huduma zetu nyingine unaweza kufika ofisi zetu kwajili ya maelekezo zaidi au kama unahitaji movie hii ipo na inapatikana muda wote. Na kama unahitaji kuuziwa kwa jumla pia tunakukaribisha",
         photo: Product_5,
         second: Product_5,
-        url: "https://d1vpmwlygrv24c.cloudfront.net/manestore.m4v ",
+        url: "https://d1vpmwlygrv24c.cloudfront.net/from episod 1.m4v",
     },
 
     

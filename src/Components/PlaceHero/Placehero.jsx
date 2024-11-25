@@ -22,7 +22,7 @@ const Placehero = ({ photo, head, hero, url }) => {
       <div className="hero-text">
         {/* <h1>{head}</h1> */}
          {/* <p>{hero.slice(0,20)}</p> */}
-         <video width="700px" height="400px" controls className='vid'>
+         <video width="700px" height="400px" controls controlsList='nodownload' className='vid' >
           <source src={url} type='video/mp4'/>
         </video>      
 

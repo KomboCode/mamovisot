@@ -4,14 +4,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Cars.css';
 // import tembo_1 from '../../assets/z-logdge/one.jpg';
-import tembo_1 from '../../assets/series/heavenly.png';
-import tui_1 from '../../assets/series/school.png';
-import mzingani_1 from '../../assets/series/baadook.png';
-import product_4 from '../../assets/series/kingdom.png';
-import product_9 from '../../assets/product-9.jpg';
-import program_icon_1 from '../../assets/program-icon-1.png';
-import program_icon_2 from '../../assets/program-icon-2.png';
-import program_icon_3 from '../../assets/program-icon-3.png';
+import tembo_1 from '../../assets/series/from1.png';
+import tui_1 from '../../assets/series/unit1.png';
+import mzingani_1 from '../../assets/series/unit1.png';
+import product_4 from '../../assets/series/from1.png';
 import { PlacesContext } from '../../Contexts/PlacesContext';
 import { useNavigate } from 'react-router-dom';
 
@@ -23,8 +19,8 @@ const Cars = () => {
 
 
   const handleHotel = (value) => {
-    Navigate("/hotel");
-    handleSingle(value);
+    Navigate("/season");
+    // handleSingle(value);
     window.scrollTo({
       top: 0,
       bahavior: 'smooth' 

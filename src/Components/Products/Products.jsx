@@ -35,6 +35,15 @@ const Programs = () => {
     })
   }
 
+  
+  const handleViewall = () => {
+    Navigate("/viewall");
+    window.scrollTo({
+      top: 0,
+      bahavior: 'smooth' 
+    })
+  }
+
   const settings = {
     dots: true,
     infinite: true,
@@ -108,6 +117,7 @@ const Programs = () => {
       
 
       </Slider>
+      {/* <button className='viewall' onClick={() => handleViewall()}>View All</button> */}
     </div>
   );
 };

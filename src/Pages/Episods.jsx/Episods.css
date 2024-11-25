@@ -1,0 +1,42 @@
+.campus {
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .viewall {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+
+  .season {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 140px;
+  }
+
+  
+  
+  .viewall img {
+    width: 73%;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  
+  /* ------ MEDIA QUERY ------ */
+  @media (max-width: 800px) {
+    .viewall {
+      flex-wrap: wrap;
+    }
+  
+    .viewall img {
+      width: 98%;
+      margin-bottom: 25px;
+    }
+  }
